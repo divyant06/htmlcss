@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="profile-img">
+        <img src="profile.jpg" alt="Profile Picture"/>
+      </div>
+      <p>
+        Hello! I am a web development student. I am passionate about learning web development and building creative projects and I am well interested in the Blockchain Field.
+      </p>
+    </section>
+
+    <hr />
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <table>
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Competent</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Learning</td>
+        </tr>
+        <tr>
+          <td>Blockchain</td>
+          <td>Expert</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr />
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal one-page website to showcase your bio, skills, and contact details.</p>
+      </div>
+      <div class="project-card">
+        <h3>Blockchain Token</h3>
+        <p>Deployed a blockchain token on the Ethereum Network.</p>
+      </div>
+      <div class="project-card">
+        <h3>Medium Clone</h3>
+        <p>A simple blog layout that looks like Medium, built only with HTML and CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Birthday Card</h3>
+        <p>A creative greeting card webpage designed with HTML structure and CSS styling.</p>
+      </div>
+      <div class="project-card">
+        <h3>User Form</h3>
+        <p>A form webpage with fields like name, email, and message for practicing form handling.</p>
+      </div>
+    </section>
+
+    <hr />
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <table class="contact-table">
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name" required></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td><label for="message">Message:</label></td>
+        <td><textarea id="message" name="message" rows="3" required></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align:center;"><button type="submit">Send</button></td>
+      </tr>
+    </table>
+  </form>
+</section>
+
+  </main>
+  <footer>
+    <p>© 2025 My Portfolio | Designed by Web Dev Student</p>
+  </footer>
+  <a href="#top" id="back-to-top">↑ Back to Top</a>
+</body>
+</html>
